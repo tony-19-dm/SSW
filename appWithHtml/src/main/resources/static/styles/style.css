@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.inform {
+    border-radius: 100px;
+    background-color: #d2a781;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pic {
+    object-fit: cover;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.inform_t {
+    width: 175px;
+}
