@@ -15,7 +15,7 @@
 ## [Homework #5. миграция бд](/petstoreWithDB/)
 Файл с заданием [file📗](/misc/homework5.pdf)
 
-## [Homework #7. Сервис коментариев](/spring-server-generated/)
+## [Homework #6. Сервис коментариев](/spring-server-generated/)
 
 ## [Homework #7. Система заказов](/Customer/)
 Файл с заданием [file📗](/misc/homework7.pdf)
