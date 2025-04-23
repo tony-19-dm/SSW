@@ -6,7 +6,7 @@ import com.example.CustomerWitchAutorisation.model.paymentType.Cash;
 import com.example.CustomerWitchAutorisation.model.paymentType.Check;
 import com.example.CustomerWitchAutorisation.model.paymentType.Credit;
 import com.example.CustomerWitchAutorisation.model.status.PaymentStatus;
-import com.example.CustomerWitchAutorisation.model.value.measurments.Quantity;
+import com.example.CustomerWitchAutorisation.model.value.measurements.Quantity;
 import com.example.CustomerWitchAutorisation.repository.CustomerRepository;
 import com.example.CustomerWitchAutorisation.repository.ItemRepository;
 import com.example.CustomerWitchAutorisation.repository.OrderRepository;

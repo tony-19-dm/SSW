@@ -1,6 +1,6 @@
 package com.example.CustomerWitchAutorisation.model.value;
 
-public interface Measurment {
+public interface Measurement {
     String getName();
     String getSymbol();
 }

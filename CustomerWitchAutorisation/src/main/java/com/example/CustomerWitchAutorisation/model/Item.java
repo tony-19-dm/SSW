@@ -1,10 +1,9 @@
 package com.example.CustomerWitchAutorisation.model;
 
-import com.example.CustomerWitchAutorisation.model.value.measurments.Weight;
+import com.example.CustomerWitchAutorisation.model.value.measurements.Weight;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,11 +17,14 @@ public class Item {
     private Long id;
 
     @Embedded
-    private Weight weight;
+    private Weight shippingWeight;
 
     private String description;
 
     @ElementCollection
-    @CollectionTable(name = "order_details", joinColumns = @JoinColumn(name = "order_id"))
+    @CollectionTable(
+            name = "order_details",
+            joinColumns = @JoinColumn(name = "order_id")
+    )
     private List<OrderDetail> orderDetails = new ArrayList<>();
 }

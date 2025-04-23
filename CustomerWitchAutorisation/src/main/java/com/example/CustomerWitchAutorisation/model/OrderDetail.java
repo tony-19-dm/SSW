@@ -1,7 +1,6 @@
 package com.example.CustomerWitchAutorisation.model;
 
-import com.example.CustomerWitchAutorisation.model.value.measurments.Quantity;
-
+import com.example.CustomerWitchAutorisation.model.value.measurements.Quantity;
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.Embedded;
 import jakarta.persistence.JoinColumn;
