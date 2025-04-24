@@ -23,3 +23,5 @@
 ## [Homework #8. Сервис заказов с типами пользователей](/CustomerWitchAutorisation/)
 
 ## [Homework #9. Сервис заказов разделённый на микросервисы](/Homework_9/)
+
+## [Homework #10. Сервис заказов с Keycloak](/Homework_10/)
